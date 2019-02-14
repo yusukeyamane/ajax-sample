@@ -4,11 +4,11 @@ export class EventEmitter {
   }
 
   addEventListener(type, listeners) {
-    if (!this._listeners.has(has)) {
+    if (!this._listeners.has(type)) {
       this._listeners.set(type, new Set());
     }
     const listenerSet = this._listeners.get(type);
-    listenerSet.add(listener);
+    listenerSet.add(listeners);
   }
 
   emit(type) {
