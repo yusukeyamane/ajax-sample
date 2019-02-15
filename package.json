@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "commander": "^2.19.0"
+    "commander": "^2.19.0",
+    "marked": "^0.6.0"
   }
 }
-
